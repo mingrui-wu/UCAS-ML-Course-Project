@@ -1,0 +1,41 @@
+# One full epoch of your dataset. Replace demo_train with your registered 1K Video-QA set.
+model_name_or_path: __RESOLVED_BY_RUNNER__
+trust_remote_code: true
+image_max_pixels: 262144
+video_max_pixels: 65536
+video_fps: 2.0
+video_maxlen: 8
+flash_attn: auto
+
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+lora_rank: 8
+lora_alpha: 16
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+
+dataset: demo_train
+dataset_dir: __RESOLVED_BY_RUNNER__
+media_dir: __RESOLVED_BY_RUNNER__
+template: qwen2_vl
+cutoff_len: 4096
+preprocessing_num_workers: 2
+dataloader_num_workers: 0
+overwrite_cache: true
+
+output_dir: __RESOLVED_BY_RUNNER__
+logging_steps: 5
+save_strategy: epoch
+plot_loss: true
+overwrite_output_dir: true
+report_to: none
+
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+learning_rate: 0.0001
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+bf16: true

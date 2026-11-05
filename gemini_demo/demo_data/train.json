@@ -1,0 +1,407 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "左侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_00.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "左转"
+      }
+    ],
+    "videos": [
+      "videos/clip_00.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "上方"
+      }
+    ],
+    "videos": [
+      "videos/clip_00.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "右侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_01.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "右转"
+      }
+    ],
+    "videos": [
+      "videos/clip_01.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "上方"
+      }
+    ],
+    "videos": [
+      "videos/clip_01.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "左侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_02.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "直行"
+      }
+    ],
+    "videos": [
+      "videos/clip_02.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "下方"
+      }
+    ],
+    "videos": [
+      "videos/clip_02.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "右侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_03.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "左转"
+      }
+    ],
+    "videos": [
+      "videos/clip_03.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "下方"
+      }
+    ],
+    "videos": [
+      "videos/clip_03.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "左侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_04.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "右转"
+      }
+    ],
+    "videos": [
+      "videos/clip_04.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "上方"
+      }
+    ],
+    "videos": [
+      "videos/clip_04.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "右侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_05.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "直行"
+      }
+    ],
+    "videos": [
+      "videos/clip_05.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "上方"
+      }
+    ],
+    "videos": [
+      "videos/clip_05.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "左侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_06.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "左转"
+      }
+    ],
+    "videos": [
+      "videos/clip_06.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "下方"
+      }
+    ],
+    "videos": [
+      "videos/clip_06.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "右侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_07.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "右转"
+      }
+    ],
+    "videos": [
+      "videos/clip_07.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "下方"
+      }
+    ],
+    "videos": [
+      "videos/clip_07.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>红色入口位于道路哪一侧？"
+      },
+      {
+        "role": "assistant",
+        "content": "左侧"
+      }
+    ],
+    "videos": [
+      "videos/clip_08.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>蓝色行人在视频最后是左转、右转还是直行？"
+      },
+      {
+        "role": "assistant",
+        "content": "直行"
+      }
+    ],
+    "videos": [
+      "videos/clip_08.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>黄色圆形标志位于红色入口的上方还是下方？"
+      },
+      {
+        "role": "assistant",
+        "content": "上方"
+      }
+    ],
+    "videos": [
+      "videos/clip_08.mp4"
+    ]
+  }
+]

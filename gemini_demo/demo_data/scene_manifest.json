@@ -1,0 +1,74 @@
+[
+  {
+    "clip": 0,
+    "side": "左侧",
+    "turn": "左转",
+    "sign_pos": "上方"
+  },
+  {
+    "clip": 1,
+    "side": "右侧",
+    "turn": "右转",
+    "sign_pos": "上方"
+  },
+  {
+    "clip": 2,
+    "side": "左侧",
+    "turn": "直行",
+    "sign_pos": "下方"
+  },
+  {
+    "clip": 3,
+    "side": "右侧",
+    "turn": "左转",
+    "sign_pos": "下方"
+  },
+  {
+    "clip": 4,
+    "side": "左侧",
+    "turn": "右转",
+    "sign_pos": "上方"
+  },
+  {
+    "clip": 5,
+    "side": "右侧",
+    "turn": "直行",
+    "sign_pos": "上方"
+  },
+  {
+    "clip": 6,
+    "side": "左侧",
+    "turn": "左转",
+    "sign_pos": "下方"
+  },
+  {
+    "clip": 7,
+    "side": "右侧",
+    "turn": "右转",
+    "sign_pos": "下方"
+  },
+  {
+    "clip": 8,
+    "side": "左侧",
+    "turn": "直行",
+    "sign_pos": "上方"
+  },
+  {
+    "clip": 9,
+    "side": "右侧",
+    "turn": "左转",
+    "sign_pos": "上方"
+  },
+  {
+    "clip": 10,
+    "side": "左侧",
+    "turn": "右转",
+    "sign_pos": "下方"
+  },
+  {
+    "clip": 11,
+    "side": "右侧",
+    "turn": "直行",
+    "sign_pos": "下方"
+  }
+]

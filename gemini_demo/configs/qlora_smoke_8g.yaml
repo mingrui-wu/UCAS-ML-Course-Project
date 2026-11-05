@@ -1,0 +1,53 @@
+# Smoke test only. Designed for Gemini H20-8G-small (~8.6 GB VRAM).
+# Qwen2.5-VL-3B QLoRA may STILL OOM on a fractional H20; reduce video input first.
+model_name_or_path: __RESOLVED_BY_RUNNER__
+trust_remote_code: true
+quantization_bit: 4
+quantization_type: nf4
+double_quantization: true
+flash_attn: auto
+
+# Keep video tiny for the first 2 optimization steps.
+image_max_pixels: 16384
+video_max_pixels: 16384
+video_fps: 0.5
+video_maxlen: 2
+
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 4
+lora_alpha: 8
+lora_target: q_proj,v_proj
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+
+dataset: demo_train
+dataset_dir: __RESOLVED_BY_RUNNER__
+media_dir: __RESOLVED_BY_RUNNER__
+template: qwen2_vl
+cutoff_len: 1024
+max_samples: 6
+preprocessing_num_workers: 1
+dataloader_num_workers: 0
+overwrite_cache: true
+
+output_dir: __RESOLVED_BY_RUNNER__
+logging_steps: 1
+save_strategy: steps
+save_steps: 2
+save_only_model: true
+plot_loss: false
+overwrite_output_dir: true
+report_to: none
+
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 0.0001
+max_steps: 2
+num_train_epochs: 1.0
+lr_scheduler_type: constant
+warmup_ratio: 0.0
+bf16: true
+gradient_checkpointing: true
+optim: adamw_torch
